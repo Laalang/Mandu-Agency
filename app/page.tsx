@@ -102,7 +102,7 @@ export default function Home() {
                     <Link href="/services">Learn More</Link>
                   </Button>
                   <Button variant="outline" asChild>
-                    <Link href="/contact">Contact Us</Link>
+                    <Link href="/contact">Hubungi Kami</Link>
                   </Button>
                 </div>
                 </FadeIn>
