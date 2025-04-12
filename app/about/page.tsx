@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
             <BookOpen className="h-5 w-5" />
-            <span>TrainingPro</span>
+            <span>Mandu.corp</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
@@ -81,16 +81,15 @@ export default function AboutPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    About TrainingPro
+                    Tentang Mandu Outsourcing
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    We're dedicated to transforming organizations through expert-led training and development programs
-                    that deliver measurable results.
+                    Kami berkomitmen untuk mengubah organisasi melalui program pelatihan dan pengembangan yang dipadu oleh para ahli, yang memberikan hasil yang terukur.
                   </p>
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="https://images.unsplash.com/photo-1605256585681-455837661b18?q=80&w=1470&auto=format&fit=crop"
                 width={550}
                 height={550}
                 alt="About TrainingPro"
@@ -109,11 +108,9 @@ export default function AboutPage() {
                   <Target className="h-8 w-8 text-primary" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter">Our Mission</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter">Misi Kami</h2>
                   <p className="text-muted-foreground">
-                    To empower organizations through transformative learning experiences that develop talent, drive
-                    innovation, and deliver measurable business results. We believe that effective training is the
-                    cornerstone of organizational success and individual growth.
+                    Memberdayakan organisasi melalui pengalaman pembelajaran transformatif yang mengembangkan talenta, mendorong inovasi, dan memberikan hasil bisnis yang terukur. Kami percaya bahwa pelatihan efektif adalah landasan kesuksesan organisasi dan pertumbumbuhan individu.
                   </p>
                 </div>
               </div>
@@ -122,11 +119,9 @@ export default function AboutPage() {
                   <BookOpenCheck className="h-8 w-8 text-primary" />
                 </div>
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter">Our Vision</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter">Visi Kami</h2>
                   <p className="text-muted-foreground">
-                    To be the global leader in corporate training solutions, recognized for our innovative approaches,
-                    exceptional quality, and the tangible impact we create for our clients. We envision a world where
-                    every organization has access to the training resources they need to thrive.
+                    Menjadi pemimpin global dalam solusi pelatihan korporat, dikenal karena pendekatan inovatif, kualitas luar biasa, dan dampak nyata yang kami ciptakan bagi client kami. Kami membayangkan dunia dimana setiap organisasi memiliki akses sumberdaya yang mereka butuhkan untuk berkembang.
                   </p>
                 </div>
               </div>
@@ -139,9 +134,9 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Story</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Cerita Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  The journey that brought us to where we are today
+                  Perjalanan bagaimana kami bisa sampai disini
                 </p>
               </div>
             </div>
@@ -149,21 +144,17 @@ export default function AboutPage() {
               <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12">
                 <div className="flex flex-col justify-center space-y-4">
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Our Beginnings</h3>
+                    <h3 className="text-xl font-bold">Permulaan</h3>
                     <p className="text-muted-foreground">
-                      Founded in 2010 by Robert Thompson, a former Fortune 500 executive with a passion for developing
-                      talent, TrainingPro began with a simple mission: to bridge the gap between theoretical knowledge
-                      and practical application in corporate training.
+                      Didirikan pada tahun 2010 oleh Dimas Prasetya, seorang mantan eksekutif yang memiliki hasrat untuk mengembangkan talenta, Mandu dimulai dengan misi sederhana: menjembatani kesenjangan antara pengembangan teoretis dan penerapan praktis dalam pelatihan korporat.
                     </p>
                     <p className="text-muted-foreground">
-                      What started as a small team of passionate educators has grown into a global network of industry
-                      experts, all committed to delivering exceptional training experiences that drive real business
-                      results.
+                      Apa yang dimulai dari tim kecil yang terdiri dari pendidik yang penuh semangat telah berkembang menjadi jaringan global para ahli industri, semuanya berkomitmen untuk memberikan pengalaman pelatihan luar biasayang mendorong hasil bisnis nyata.
                     </p>
                   </div>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop"
                   width={400}
                   height={300}
                   alt="TrainingPro Beginnings"
@@ -172,7 +163,7 @@ export default function AboutPage() {
               </div>
               <div className="grid gap-6 lg:grid-cols-[400px_1fr] lg:gap-12">
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1632&auto=format&fit=crop"
                   width={400}
                   height={300}
                   alt="TrainingPro Growth"
@@ -180,16 +171,12 @@ export default function AboutPage() {
                 />
                 <div className="flex flex-col justify-center space-y-4">
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Growth and Evolution</h3>
+                    <h3 className="text-xl font-bold">Perkembangan</h3>
                     <p className="text-muted-foreground">
-                      By 2015, we had expanded our services to include specialized training programs for various
-                      industries, from healthcare to technology. The addition of Sophia Martinez, PhD in Organizational
-                      Psychology, as our Chief Learning Officer marked a significant milestone in our development of
-                      cutting-edge learning methodologies.
+                      Pada tahun 2015, kami telah memperluas layanan kami dengan memberikan program pelatihan khusus untuk berbagai industri, mulai dari kesehatan hingga teknologi. Penambahan Dika Hadi, seorang Sarjanan Psikologi Organisasi, sebagai Chief Learning Officer kami menjadi tonggak penting dalam pengembangan metodologi pengembangan mutakhir.
                     </p>
                     <p className="text-muted-foreground">
-                      Today, we're proud to have helped hundreds of organizations across various industries develop
-                      their talent and achieve their strategic goals through our comprehensive training solutions.
+                      Saat ini, kami bangga telah membantu ratusan organisasi di berbagai industri dalam pengembangan talenta mereka dalam mencapai tujuan strategis mereka melalui solusi pelatihan yang komprehensif.
                     </p>
                   </div>
                 </div>
@@ -197,21 +184,17 @@ export default function AboutPage() {
               <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12">
                 <div className="flex flex-col justify-center space-y-4">
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Where We Are Today</h3>
+                    <h3 className="text-xl font-bold">Kami Sekarang</h3>
                     <p className="text-muted-foreground">
-                      With offices in major cities across North America, Europe, and Asia, TrainingPro now serves
-                      clients globally. Our team has grown to include over 100 full-time training specialists and a
-                      network of more than 250 subject matter experts who bring deep domain knowledge to our programs.
+                      Dengan kantor di kota-kota besar di Indonesia, Mandu Outsourcing kini melayani client secara global. Tim kami telah berkembang mencakup lebih dari 100 spesialis pelatihan penuh waktu dan jaringan lebih dari 250 pakar mentri yang membawa pengetahuan mendalam ke dalam program kami.
                     </p>
                     <p className="text-muted-foreground">
-                      We continue to innovate and evolve our training methodologies, embracing new technologies and
-                      approaches to ensure our clients receive the most effective and engaging learning experiences
-                      possible.
+                      Kami terus berinovasi dan mengembangkan metodologi pelatihan kami, mengadopsi teknologi dan pendekatan baru untuk memastikan client kami mendapatkan pengalaman pembelajaran yang paling efektif dan menarik.
                     </p>
                   </div>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=400"
+                  src="https://images.unsplash.com/photo-1634936016780-65f6a77ebdd4?q=80&w=1478&auto=format&fit=crop"
                   width={400}
                   height={300}
                   alt="TrainingPro Today"
@@ -227,9 +210,9 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Core Values</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Kelebihan Kami </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  The principles that guide everything we do
+                  Prinsip yang menjadi landasan setiap tindakan kami
                 </p>
               </div>
             </div>
@@ -241,8 +224,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Excellence</h3>
                   <p className="text-muted-foreground">
-                    We're committed to delivering the highest quality training programs that exceed expectations and set
-                    new standards in the industry.
+                    Kami berkomitmen untuk menyediakan program pelatihan berkualitas tinggi yang melapaui ekspektasi dan menetapkan standar baru di industri.
                   </p>
                 </div>
               </div>
@@ -253,8 +235,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Collaboration</h3>
                   <p className="text-muted-foreground">
-                    We believe in working closely with our clients to understand their unique needs and co-create
-                    solutions that drive meaningful results.
+                    Kami percaya dalam bekerja sama dengan client kami untuk memahami kebutuhan unik mereka dan menciptakan solusi bersama yang menghasilkan hasil yang bermakna.
                   </p>
                 </div>
               </div>
@@ -265,8 +246,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Innovation</h3>
                   <p className="text-muted-foreground">
-                    We continuously evolve our methods and content to stay ahead of industry trends and incorporate the
-                    latest research in adult learning.
+                    Kami terus mengembangkan metode dan konten kami untuk berada di depan tren dan mengintegrasikan penelitian terbaru dalam pembelajaran orang dewasa.
                   </p>
                 </div>
               </div>
@@ -277,8 +257,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Integrity</h3>
                   <p className="text-muted-foreground">
-                    We operate with transparency, honesty, and ethical standards in all our interactions with clients,
-                    partners, and team members.
+                    Kami beroprasi dengan transparansi, kejujuran, dan standar etika dalam semua interaksi kami dengan client, mitra dan anggota tim.
                   </p>
                 </div>
               </div>
@@ -289,8 +268,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Impact</h3>
                   <p className="text-muted-foreground">
-                    We measure our success by the tangible results and positive changes we create for our clients and
-                    their organizations.
+                    Kami mengukur kesuksesan kami berdasarkan hasil nyata dan perubahan positif yang kami ciptakan untuk client kami dan organisasi mereka.
                   </p>
                 </div>
               </div>
@@ -301,8 +279,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Inclusivity</h3>
                   <p className="text-muted-foreground">
-                    We embrace diversity of thought, background, and experience, creating learning environments where
-                    everyone can thrive and contribute.
+                    Kami merangkul keberagaman pemikiran, latar belakang dan pengalaman, menciptakan lingkungan pembelajaran dimana setiap orang dapat berkembang dan berkontribusi.
                   </p>
                 </div>
               </div>
@@ -315,113 +292,106 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Leadership Team</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Tim Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Meet the experienced professionals guiding our organization
+                  Berkenalan dengan para profesional yang memimpin organisasi kami
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1590323007493-7e4cc5943d2b?q=80&w=1374&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="Robert Thompson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Robert Thompson</h3>
+                  <h3 className="text-xl font-bold">Muhammad Faiz</h3>
                   <p className="text-sm text-primary font-medium">Founder & CEO</p>
                   <p className="text-sm text-muted-foreground">
-                    Former Fortune 500 executive with 20+ years in corporate training and development. Robert founded
-                    TrainingPro with a vision to transform how organizations approach talent development.
+                    Seorang mantan eksekutif dengan pengalaman lebih dari 20 tahun dalam pelatihan dan pengembangan korporat. Mendirikan Mandu Outsource dengan visi untuk mengubah cara organisasi mengembangan talenta.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1627564056961-301499f8677d?q=80&w=1527&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="Sophia Martinez"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Dr. Sophia Martinez</h3>
+                  <h3 className="text-xl font-bold">Putra Samadi</h3>
                   <p className="text-sm text-primary font-medium">Chief Learning Officer</p>
                   <p className="text-sm text-muted-foreground">
-                    PhD in Organizational Psychology with expertise in adult learning methodologies. Sophia leads our
-                    curriculum development and ensures our programs incorporate the latest research in effective
-                    learning.
+                    Sarjana dalam psikologi organisasi dengan keahlian dalam metodologi pembelajaran orang dewasa. Putra Samadi memimpin perkembangan kurikulum kami dan memastikan program kami mengintegrasikan penelitian terbaru dalam pemebelajaran yang efektif.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1614772903208-613ed4282ded?q=80&w=1480&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="James Wilson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">James Wilson</h3>
+                  <h3 className="text-xl font-bold">Dana Mego</h3>
                   <p className="text-sm text-primary font-medium">Director of Client Success</p>
                   <p className="text-sm text-muted-foreground">
-                    With a background in management consulting, James ensures our clients achieve their desired outcomes
-                    through our programs. He leads our team of client success managers who provide ongoing support.
+                    Dengan latar belakang dalam konsultasi manajemen, Dana memastikan client kami mencapai hasil yang diinginkan melalui program kami. Ia memimpin tim manager kesuksesan client kami yang memberi dukungan berkelanjutan.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1691034545710-036170315565?q=80&w=1631&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="Michelle Lee"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Michelle Lee</h3>
+                  <h3 className="text-xl font-bold">Hasdi Putra</h3>
                   <p className="text-sm text-primary font-medium">Chief Operations Officer</p>
                   <p className="text-sm text-muted-foreground">
-                    Michelle brings 15 years of operational leadership experience to ensure our global training delivery
-                    is seamless and efficient. She oversees our international expansion and operational excellence.
+                    Hasdi membawa pengalaman 15 tahun dalam kepemimpinan operasional untuk memastikan penyelanggaraan pelatihan global kami berjalan lancar dan efisien. Dia mengawasi ekspansi internasional dan keunggulan operasional kami.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1690166444476-8cc4c0f24032?q=80&w=1372&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="David Chen"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">David Chen</h3>
+                  <h3 className="text-xl font-bold">Dini Purnama</h3>
                   <p className="text-sm text-primary font-medium">Chief Technology Officer</p>
                   <p className="text-sm text-muted-foreground">
-                    David leads our digital learning initiatives and technology infrastructure. His background in
-                    educational technology helps us create innovative learning platforms and experiences.
+                    Dini memimpin inisiatif pembelajaran digital dan infrasruktur teknologi kami. Dengan latar belakang dalam teknologi pendidikan, Ia membantu kami menciptakan platform dan pengalaman pembelajaran yang inovatif.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
+                  src="https://images.unsplash.com/photo-1717231859330-ecea77672b46?q=80&w=1374&auto=format&fit=crop"
                   width={300}
                   height={300}
                   alt="Sarah Johnson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Sarah Johnson</h3>
+                  <h3 className="text-xl font-bold">Dimas Rizki</h3>
                   <p className="text-sm text-primary font-medium">Global Director of Training</p>
                   <p className="text-sm text-muted-foreground">
-                    Sarah oversees our global team of trainers and facilitators. With 15+ years in leadership
-                    development, she ensures consistent quality and excellence in program delivery worldwide.
+                    Dimas mengawasi tim pelatih dan fasilitator global kami. Dengan pengalaman lebih dari 15 tahun dalam pengembangan kepemimpinan, ia memastikan kualitas dan keunggulan yang konsisten dalam pelaksanaan program di seluruh dunia
                   </p>
                 </div>
               </div>
@@ -434,145 +404,145 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Expert Mentors</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Para Mentor Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Industry professionals who bring their expertise to our training programs
+                  Para profesional yang membagikan pengalaman dan pengetahuan mereka dalam program pelatihan kami
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1693667983999-d5f206f9780f?q=80&w=1374&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Michael Chen"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Michael Chen</h3>
+                  <h3 className="text-lg font-bold">Priti Borah</h3>
                   <p className="text-sm text-primary font-medium">Technical Skills Trainer</p>
                   <p className="text-xs text-muted-foreground">
-                    Former CTO with expertise in digital transformation and technical upskilling
+                    Mantan CTO dengan keahlian dalam transformasi digital dan peningkatan keterampilan teknis.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1709377303352-7c845ac999ac?q=80&w=1631&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Elena Rodriguez"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Elena Rodriguez</h3>
+                  <h3 className="text-lg font-bold">Herlambang Tinasih</h3>
                   <p className="text-sm text-primary font-medium">Communication Coach</p>
                   <p className="text-xs text-muted-foreground">
-                    Specializes in improving team dynamics and interpersonal communication
+                    Berspesialisasi dalam meningkatkan dinamika tim dan komunikasi interpersonal.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1600896997793-b8ed3459a17f?q=80&w=1470&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Thomas Wright"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Thomas Wright</h3>
+                  <h3 className="text-lg font-bold">Dimas Duran</h3>
                   <p className="text-sm text-primary font-medium">Financial Services Specialist</p>
                   <p className="text-xs text-muted-foreground">
-                    Former investment banker with deep knowledge of financial regulations
+                    Mantan bankir investasi dengan pengetahuan mendalam tentang regulasi keuangan.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1624471621620-c30f427546ce?q=80&w=1374&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Priya Patel"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Priya Patel</h3>
+                  <h3 className="text-lg font-bold">Mufid Majnun</h3>
                   <p className="text-sm text-primary font-medium">Technology Transformation Expert</p>
                   <p className="text-xs text-muted-foreground">
-                    Specializes in helping organizations navigate digital transformation
+                    Berspesialisasi dalam membantu organisasi menghadapi transformasi digital.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1731211187012-763115184a29?q=80&w=1374&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Marcus Johnson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Marcus Johnson</h3>
+                  <h3 className="text-lg font-bold">Dika Permadi</h3>
                   <p className="text-sm text-primary font-medium">Project Management Coach</p>
                   <p className="text-xs text-muted-foreground">
-                    PMP certified with experience leading complex global projects
+                    Bersertifikat PMP dengan pengalaman memimpin proyek global yang kompleks.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1660795939915-06e72a9178a3?q=80&w=1470&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Olivia Thompson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Olivia Thompson</h3>
+                  <h3 className="text-lg font-bold">Muhammad Aji</h3>
                   <p className="text-sm text-primary font-medium">Diversity & Inclusion Specialist</p>
                   <p className="text-xs text-muted-foreground">
-                    Helps organizations build inclusive cultures that drive innovation
+                    Membantu organisasi membangun budaya inklusif yang mendorong inovasi.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1601869608939-eeae595c079f?w=500&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Dr. Jennifer Lee"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">Dr. Jennifer Lee</h3>
+                  <h3 className="text-lg font-bold">Prima Arun</h3>
                   <p className="text-sm text-primary font-medium">Healthcare Industry Expert</p>
                   <p className="text-xs text-muted-foreground">
-                    Former hospital administrator with expertise in healthcare management
+                    Mantan administrator rumah sakit dengan keahlian dalam manajemen layanan kesehatan.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1618764068818-0b2bbe41d5b9?w=500&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="David Park"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-lg font-bold">David Park</h3>
+                  <h3 className="text-lg font-bold">Rani Ramdani</h3>
                   <p className="text-sm text-primary font-medium">Sales Training Expert</p>
                   <p className="text-xs text-muted-foreground">
-                    Developed award-winning sales methodologies for Fortune 500 companies
+                    Mengembangkan metodologi penjualan pemenang penghargaan untuk perusahaan Fortune 500.
                   </p>
                 </div>
               </div>
             </div>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
-                <Link href="/mentors">View All Mentors</Link>
+                <Link href="/mentors">Lihat Semua</Link>
               </Button>
             </div>
           </div>
@@ -583,15 +553,15 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Global Presence</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Keberadaan Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Serving clients across the world with local expertise and global best practices
+                  Melayani klien di seluruh dunia dengan keahlian lokal dan praktik terbaik global.
                 </p>
               </div>
             </div>
             <div className="mx-auto max-w-5xl py-12">
               <Image
-                src="/placeholder.svg?height=600&width=1200"
+                src="https://images.unsplash.com/photo-1559523161-0fc0d8b38a7a?q=80&w=1480&auto=format&fit=crop"
                 width={1200}
                 height={600}
                 alt="Global Presence Map"
@@ -599,19 +569,19 @@ export default function AboutPage() {
               />
               <div className="grid gap-6 py-8 md:grid-cols-3 lg:gap-12">
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">North America</h3>
+                  <h3 className="text-xl font-bold">Indonesia</h3>
                   <p className="text-muted-foreground">
-                    Headquarters in New York with offices in Chicago, San Francisco, and Toronto
+                    Kantor pusat di jakarta, dan banyak cabang di seluruh penjuru Indonesia
                   </p>
                 </div>
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Europe</h3>
-                  <p className="text-muted-foreground">Regional offices in London, Paris, and Frankfurt</p>
+                  <h3 className="text-xl font-bold">Singapura</h3>
+                  <p className="text-muted-foreground">Kantor Regional di Singapura</p>
                 </div>
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Asia Pacific</h3>
+                  <h3 className="text-xl font-bold">Malaysia</h3>
                   <p className="text-muted-foreground">
-                    Regional offices in Singapore, Tokyo, and Sydney serving clients across the region
+                    Kantor Regional di Malaysia
                   </p>
                 </div>
               </div>
@@ -624,17 +594,17 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Work With Us?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ayo Mulai Tingkatkan Profesionalitas Organisasi Anda</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Let's discuss how our training solutions can help your organization reach its full potential.
+                  Mari berdiskusi solusi pelatihan kami agar bisa membantu organisasi anda mencapai potensi maksimal.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button size="lg" asChild>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/contact">Hubungi Kami</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/services">Explore Services</Link>
+                  <Link href="/services">Lihat Layanan</Link>
                 </Button>
               </div>
             </div>
@@ -781,10 +751,13 @@ export default function AboutPage() {
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-2 font-bold">
               <BookOpen className="h-5 w-5" />
-              <span>TrainingPro</span>
+              <span>Mandu.corp</span>
             </div>
             <p className="text-xs text-muted-foreground">
               © {new Date().getFullYear()} TrainingPro. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              2025 Site by Archyst.
             </p>
           </div>
         </div>

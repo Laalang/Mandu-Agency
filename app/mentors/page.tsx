@@ -47,7 +47,7 @@ type Specialty =
   | "Technology Transformation"
   | "Executive Coaching"
 
-type Region = "North America" | "Europe" | "Asia Pacific" | "Latin America" | "Middle East & Africa"
+type Region = "Indonesia" | "Singapore" | "Malaysia" | "Cambodia" | "Vietnam"
 
 interface Mentor {
   id: string

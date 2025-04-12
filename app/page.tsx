@@ -3,6 +3,10 @@ import Link from "next/link"
 import { ArrowRight, Award, BookOpen, Users } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { ScrollToTop } from "@/components/scroll-to-top"
+import { Card } from "@/components/ui/card-enhanced"
+import { FadeIn, ScaleIn, FloatingElement } from "@/components/ui/animations"
+import { Button } from "@/components/ui/button-enhanced"
 
 export default function Home() {
   return (
@@ -12,7 +16,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
             <BookOpen className="h-5 w-5" />
-            <span>TrainingPro</span>
+            <span>Mandu.corp</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="text-sm font-medium text-primary">
@@ -82,15 +86,17 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
+                <FadeIn direction="up" duration={0.8}>
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Empowering Corporations Through Expertise
+                    Temukan Potensi Perusahaan Bersama Mandu Outsourcing
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    We provide tailored training solutions that transform your workforce and drive organizational
-                    success.
+                    Kami menawarkan pelatihan dan tenaga kerja untuk mendukung kemajuan perusahaan anda.
                   </p>
                 </div>
+                </FadeIn>
+                <FadeIn direction="up" duration={0.8}>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button asChild>
                     <Link href="/services">Learn More</Link>
@@ -99,14 +105,17 @@ export default function Home() {
                     <Link href="/contact">Contact Us</Link>
                   </Button>
                 </div>
+                </FadeIn>
               </div>
+              <FadeIn direction="left" duration={0.8}>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="https://images.unsplash.com/photo-1577415124269-fc1140a69e91?q=80&w=1528&auto=format&fit=crop"
                 width={550}
                 height={550}
                 alt="Corporate Training"
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               />
+              </FadeIn>
             </div>
           </div>
         </section>
@@ -114,147 +123,171 @@ export default function Home() {
         {/* Services Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
+            <FadeIn direction="up" duration={0.8}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Layanan Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Comprehensive training solutions tailored to your organization's unique needs
+                  Memberi pelatihan yang sesuai dengan perusahaan anda
                 </p>
               </div>
             </div>
+            </FadeIn>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+              <FadeIn direction="right">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
                   <BookOpen className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Custom Training Programs</h3>
+                  <h3 className="text-xl font-bold">Program Pelatihan Custom</h3>
                   <p className="text-muted-foreground">
-                    Tailored learning experiences designed to address your specific business challenges and goals.
+                    Memberikan fasilitas dan tenaga ahli untuk membantu menyesuaikan dengan budaya anda
                   </p>
                 </div>
                 <Link href="/services" className="inline-flex items-center text-sm font-medium text-primary">
                   Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
+              </FadeIn>
+              <FadeIn direction="right">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
                   <Users className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Leadership Development</h3>
+                  <h3 className="text-xl font-bold">Pelatihan Kepemimpinan</h3>
                   <p className="text-muted-foreground">
-                    Empower your leaders with the skills and knowledge they need to drive organizational success.
+                    Memberikan pembekalan kepada para pemimipin untuk memanjukan perusahaan.
                   </p>
                 </div>
                 <Link href="/services" className="inline-flex items-center text-sm font-medium text-primary">
                   Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
+              </FadeIn>
+              <FadeIn direction="right">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
                   <Award className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Professional Certification</h3>
+                  <h3 className="text-xl font-bold">Sertifikasi Profesional</h3>
                   <p className="text-muted-foreground">
-                    Industry-recognized certifications that validate skills and enhance career opportunities.
+                    Memberi valuasi dan sertifikat untuk kompetensi anda.
                   </p>
                 </div>
                 <Link href="/services" className="inline-flex items-center text-sm font-medium text-primary">
                   Learn more <ArrowRight className="ml-1 h-4 w-4" />
                 </Link>
               </div>
+              </FadeIn>
             </div>
+            <FadeIn direction="up">
             <div className="flex justify-center">
               <Button asChild>
-                <Link href="/services">View All Services</Link>
+                <Link href="/services">Lihat Semua Layanan</Link>
               </Button>
             </div>
+            </FadeIn>
           </div>
         </section>
 
         {/* Mentors Section */}
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
+            <FadeIn direction="up" duration={0.8}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet Our Expert Mentors</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Mentor Profesional</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Industry professionals with years of experience ready to share their knowledge
+                  Para profesional dengan pengalaman yang siap untuk memberi pelatihan dan kurikulum.
                 </p>
               </div>
             </div>
+            </FadeIn>
             <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+              <FadeIn direction="up" duration={0.8}>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1691026336764-f24456f76e03?q=80&w=1631&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Sarah Johnson"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Sarah Johnson</h3>
+                  <h3 className="text-xl font-bold">Eko Purnowo</h3>
                   <p className="text-sm text-muted-foreground">Leadership Development Specialist</p>
                   <p className="text-sm text-muted-foreground">
-                    15+ years experience in executive coaching and leadership training
+                    15 tahun pengalaman dalam pendidikan kepemimpinan.
                   </p>
                 </div>
               </div>
+              </FadeIn>
+              <FadeIn direction="up" duration={0.9}>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1655048424687-29c152741a90?q=80&w=1480&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Michael Chen"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Michael Chen</h3>
+                  <h3 className="text-xl font-bold">Seto Kurnia</h3>
                   <p className="text-sm text-muted-foreground">Technical Skills Trainer</p>
                   <p className="text-sm text-muted-foreground">
-                    Former CTO with expertise in digital transformation and technical upskilling
+                    Seorang profesional dengan pengalaman menjadi CTO untuk membimbing keahlian teknikal.
                   </p>
                 </div>
               </div>
+              </FadeIn>
+              <FadeIn direction="up" duration={1}>
               <div className="flex flex-col items-center space-y-4">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="https://images.unsplash.com/photo-1645633094375-f5c829cd33d3?q=80&w=1374&auto=format&fit=crop"
                   width={200}
                   height={200}
                   alt="Elena Rodriguez"
                   className="rounded-full object-cover"
                 />
                 <div className="space-y-2 text-center">
-                  <h3 className="text-xl font-bold">Elena Rodriguez</h3>
+                  <h3 className="text-xl font-bold">Cindy Puspita</h3>
                   <p className="text-sm text-muted-foreground">Communication Coach</p>
                   <p className="text-sm text-muted-foreground">
-                    Specializes in improving team dynamics and interpersonal communication
+                    Spesialis untuk meningkatkan kemampuan komunikasi dalam team
                   </p>
                 </div>
               </div>
+              </FadeIn>
             </div>
+            <FadeIn direction="up" duration={0.8}>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
-                <Link href="/mentors">View All Mentors</Link>
+                <Link href="/mentors">Lihat Semua Mentor</Link>
               </Button>
             </div>
+            </FadeIn>
           </div>
         </section>
 
         {/* Testimonials Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
+            <FadeIn direction="up" duration={0.8}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Success Stories</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  See how our training programs have transformed organizations
+                  Bagaimana pelatihan profesional dapat meningkatkan kinerja organisasi.
                 </p>
               </div>
             </div>
+            </FadeIn>
+            <FadeIn direction="up">
             <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+              <Card>
               <div className="flex flex-col justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
                 <div className="space-y-2">
                   <div className="flex items-center gap-1 text-amber-500">
@@ -277,24 +310,25 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-muted-foreground">
-                    "The leadership program transformed our management team. We've seen improved communication, better
-                    decision-making, and increased employee satisfaction."
+                    "Program kepemimpinan tersebut telah mengubah tim managemen kami. kami melihat peningkatan di komunikasi, pengambilan keputusan yang baik, dan kepuasan karyawan yang meningkat."
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="https://images.unsplash.com/photo-1648448942246-a2a2c0886dc8?q=80&w=1376&auto=format&fit=crop"
                     width={40}
                     height={40}
                     alt="David Wilson"
                     className="rounded-full object-cover"
                   />
                   <div>
-                    <p className="text-sm font-medium">David Wilson</p>
+                    <p className="text-sm font-medium">Teguh Waluyo</p>
                     <p className="text-xs text-muted-foreground">HR Director, Global Tech Solutions</p>
                   </div>
                 </div>
               </div>
+              </Card>
+              <Card>
               <div className="flex flex-col justify-between space-y-4 rounded-lg border bg-background p-6 shadow-sm">
                 <div className="space-y-2">
                   <div className="flex items-center gap-1 text-amber-500">
@@ -317,30 +351,33 @@ export default function Home() {
                     ))}
                   </div>
                   <p className="text-muted-foreground">
-                    "The custom training program developed for our sales team resulted in a 30% increase in revenue
-                    within just six months. The ROI has been exceptional."
+                    "Program pelatihan khusus yang dikembangan untuk tim penjualan kami menghasilkan peningkatan pendapatan sebesar 30% hanya dalam 6 bulan. ROI-nya sangat luar biasa."
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="https://images.unsplash.com/photo-1683334833180-4d6bf4d3a662?q=80&w=1374&auto=format&fit=crop"
                     width={40}
                     height={40}
                     alt="Jennifer Lee"
                     className="rounded-full object-cover"
                   />
                   <div>
-                    <p className="text-sm font-medium">Jennifer Lee</p>
+                    <p className="text-sm font-medium">Budaiyah Murthawaroh</p>
                     <p className="text-xs text-muted-foreground">Sales Director, Innovate Retail</p>
                   </div>
                 </div>
               </div>
+              </Card>
             </div>
+            </FadeIn>
+            <FadeIn direction="up" duration={0.8}>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
-                <Link href="/success-stories">Read More Success Stories</Link>
+                <Link href="/success-stories">Baca Lebih Banyak</Link>
               </Button>
             </div>
+            </FadeIn>
           </div>
         </section>
 
@@ -348,21 +385,26 @@ export default function Home() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <FadeIn direction="up" duration={0.8}>
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Transform Your Workforce?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Siap Untuk Meningkatkan Tenaga Kerja Anda?</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Contact us today to discuss how our training solutions can help your organization reach its full
-                  potential.
+                  Hubungi kami untuk mendiskusikan bagaimana solusi pelatihan agar membantu organisasi anda mencapai potensi maksimal.
                 </p>
               </div>
+              </FadeIn>
+              <FloatingElement>
+              <FadeIn direction="up">
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button size="lg" asChild>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/contact">Hubungi Kami</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/services">Explore Services</Link>
+                  <Link href="/services">Lihat Layanan</Link>
                 </Button>
               </div>
+              </FadeIn>
+              </FloatingElement>
             </div>
           </div>
         </section>
@@ -393,7 +435,7 @@ export default function Home() {
                     href="/careers"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    Careers
+                    Karir
                   </Link>
                 </li>
                 <li>
@@ -507,14 +549,18 @@ export default function Home() {
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-2 font-bold">
               <BookOpen className="h-5 w-5" />
-              <span>TrainingPro</span>
+              <span>Mandu.corp</span>
             </div>
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} TrainingPro. All rights reserved.
+              © {new Date().getFullYear()} Mandu Outsource. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              2025 Site by Archyst.
             </p>
           </div>
         </div>
       </footer>
+      <ScrollToTop />
     </div>
   )
 }

@@ -28,7 +28,7 @@ export default function ServicesPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
             <BookOpen className="h-5 w-5" />
-            <span>TrainingPro</span>
+            <span>Mandu.corp</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
@@ -96,10 +96,10 @@ export default function ServicesPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Our Training Services
+                  Layanan Pelatihan Kami
                 </h1>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Comprehensive training solutions tailored to your organization's unique needs and goals
+                  Solusi pelatihan komprehensif yang disesuaikan dengan kebutuhan dan tujuan unik organisasi anda
                 </p>
               </div>
             </div>
@@ -111,9 +111,9 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Training Program Categories</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Kategori Program Pelatihan</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Explore our diverse range of training programs designed to meet your specific organizational needs
+                  Jelajahi program pelatihan kami yang dirancang untuk memenuhi kebutuhan spesifik organisasi Anda
                 </p>
               </div>
             </div>
@@ -125,31 +125,31 @@ export default function ServicesPage() {
                     <Target className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Leadership Training</CardTitle>
-                  <CardDescription>Develop effective leaders at all levels of your organization</CardDescription>
+                  <CardDescription>Kembangkan pemimpin yang efektif di semua tingkat organisasi Anda</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Executive leadership development</span>
+                      <span>Perkembangan kepemimpinan eksekutif</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Middle management training</span>
+                      <span>Pelatihan manajemen menengah.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Emerging leaders programs</span>
+                      <span>Program pemimpin masa depan.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Strategic decision-making</span>
+                      <span>Pengambilan keputusan strategis.</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=leadership">Request Information</Link>
+                    <Link href="/contact?service=leadership">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -161,31 +161,31 @@ export default function ServicesPage() {
                     <Code className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Technical Skills</CardTitle>
-                  <CardDescription>Equip your workforce with essential technical competencies</CardDescription>
+                  <CardDescription>Perkuat tenaga kerja anda dengan kompetensi teksnis yang esetial</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Software development and programming</span>
+                      <span>Pengembangan perangkat lunak dan pemrograman</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Data analysis and visualization</span>
+                      <span>Analisis data dan visualisasi</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Cybersecurity fundamentals</span>
+                      <span>Dasar-dasar keamanan siber</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Cloud computing and infrastructure</span>
+                      <span>Komputasi awan dan infrastruktur</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=technical">Request Information</Link>
+                    <Link href="/contact?service=technical">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -197,31 +197,31 @@ export default function ServicesPage() {
                     <Users className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Team Building</CardTitle>
-                  <CardDescription>Foster collaboration and strengthen team dynamics</CardDescription>
+                  <CardDescription>Memupuk kolaborasi dan memperkuat dinamika tim.</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Collaborative problem-solving workshops</span>
+                      <span>Lokakarya pemecahan masalah secara kolaboratif</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Communication and trust-building exercises</span>
+                      <span>Latihan komunikasi dan membangun kepercayaan</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Conflict resolution training</span>
+                      <span>Pelatihan penyelesaian konflik</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Remote team collaboration strategies</span>
+                      <span>Strategi kolaborasi tim jarak jauh</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=team-building">Request Information</Link>
+                    <Link href="/contact?service=team-building">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -233,31 +233,31 @@ export default function ServicesPage() {
                     <GraduationCap className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Professional Development</CardTitle>
-                  <CardDescription>Enhance core professional skills across your organization</CardDescription>
+                  <CardDescription>Tingkatkan keterampilan profesional inti di seluruh organisasi Anda</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Business communication skills</span>
+                      <span>Keterampilan komunikasi bisnis</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Project management methodologies</span>
+                      <span>Metodologi manajemen proyek</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Time management and productivity</span>
+                      <span>Manajemen waktu dan produktivitas</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Presentation and public speaking</span>
+                      <span>Presentasi dan berbicara di depan umum</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=professional-development">Request Information</Link>
+                    <Link href="/contact?service=professional-development">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -269,31 +269,31 @@ export default function ServicesPage() {
                     <Building2 className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Industry-Specific Training</CardTitle>
-                  <CardDescription>Specialized training tailored to your industry's unique challenges</CardDescription>
+                  <CardDescription>Pelatihan khusus yang disesuaikan dengan tantangan unik industri Anda</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Healthcare compliance and patient care</span>
+                      <span>Kepatuhan layanan kesehatan dan perawatan pasien</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Financial services regulations</span>
+                      <span>Regulasi layanan keuangan</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Manufacturing safety and quality control</span>
+                      <span>Keamanan manufaktur dan kontrol kualitas</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>Retail customer service excellence</span>
+                      <span>Keunggulan layanan pelanggan ritel</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=industry-specific">Request Information</Link>
+                    <Link href="/contact?service=industry-specific">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -305,7 +305,7 @@ export default function ServicesPage() {
                     <Award className="h-6 w-6 text-primary" />
                   </div>
                   <CardTitle>Certification Programs</CardTitle>
-                  <CardDescription>Industry-recognized certifications to validate professional skills</CardDescription>
+                  <CardDescription>Sertifikasi yang diakui industri untuk memvalidasi keterampilan profesional</CardDescription>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2 mb-6">
@@ -323,13 +323,13 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span>HR certification preparation</span>
+                      <span>Persiapan sertifikasi SDM.</span>
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
                   <Button asChild className="w-full">
-                    <Link href="/contact?service=certification">Request Information</Link>
+                    <Link href="/contact?service=certification">Informasi Lebih Lanjut</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -346,39 +346,37 @@ export default function ServicesPage() {
                   <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                     Featured Program
                   </div>
-                  <h2 className="text-3xl font-bold tracking-tighter">Leadership Excellence Program</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter">Program Kepemimpinan Eksekutif</h2>
                   <p className="text-muted-foreground">
-                    Our comprehensive leadership development program is designed to transform managers at all levels
-                    into inspirational leaders who can drive organizational success. This program combines theoretical
-                    knowledge with practical application through:
+                    Program pengembangan kepemimpinan kami yang komprehensif dirancang untuk mengubah manager di semua tingkatan menjadi pemimpin inspiratif yang dapat mendorong kesuksesan organisasi. Program ini menggabungkan pengetahuan teoritis dengan aplikasi praktis melalui:
                   </p>
                 </div>
                 <ul className="grid gap-2">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Interactive workshops and simulations</span>
+                    <span>Lokakarya interaktif dan simulasi</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>One-on-one executive coaching</span>
+                    <span>Pelatihan eksekutif satu lawan satu</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>360-degree feedback and assessment</span>
+                    <span>Umpan balik dan penilaian 360 derajat</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Action learning projects with real business impact</span>
+                    <span>Proyek pembelajaran aksi dengan dampak nyata pada bisnis</span>
                   </li>
                 </ul>
                 <div>
                   <Button asChild>
-                    <Link href="/contact?service=leadership-excellence">Request a Consultation</Link>
+                    <Link href="/contact?service=leadership-excellence">Konsultasi Sekarang</Link>
                   </Button>
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1470&auto=format&fit=crop"
                 width={600}
                 height={400}
                 alt="Leadership Training"
@@ -393,7 +391,7 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://images.unsplash.com/photo-1571645163064-77faa9676a46?q=80&w=1470&auto=format&fit=crop"
                 width={600}
                 height={400}
                 alt="Technical Skills Training"
@@ -404,34 +402,32 @@ export default function ServicesPage() {
                   <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                     Featured Program
                   </div>
-                  <h2 className="text-3xl font-bold tracking-tighter">Technical Skills Bootcamp</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter">Bootcamp Keterampilan Teknis</h2>
                   <p className="text-muted-foreground">
-                    Our intensive technical skills bootcamps are designed to rapidly upskill your workforce in
-                    high-demand technical areas. These programs combine instructor-led training with hands-on practice
-                    and real-world projects to ensure practical skill development.
+                    Bootcamp keterampilan teknis intensif kami dirancang untuk dengan cepat meningkatkan keterampilan tenaga kerja anda di bidang teknis yang banyak diminati. Program ini menggabungkan pelatihan yang dipandu oleh instruktur dengan praktik langsung dan proyek dunia nyata untuk memastikan pengembangan keterampilan yang praktis.
                   </p>
                 </div>
                 <ul className="grid gap-2">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Customized curriculum based on your technology stack</span>
+                    <span>Kurikulum yang disesuaikan berdasarkan tumpukan teknologi Anda</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Expert instructors with industry experience</span>
+                    <span>Instruktur ahli dengan pengalaman industri</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Hands-on labs and practical exercises</span>
+                    <span>Laboratorium praktis dan latihan langsung</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Post-training support and resources</span>
+                    <span>Dukungan pasca-pelatihan dan sumber daya</span>
                   </li>
                 </ul>
                 <div>
                   <Button asChild>
-                    <Link href="/contact?service=technical-bootcamp">Request a Consultation</Link>
+                    <Link href="/contact?service=technical-bootcamp">Konsultasi Sekarang</Link>
                   </Button>
                 </div>
               </div>
@@ -448,39 +444,37 @@ export default function ServicesPage() {
                   <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                     Featured Program
                   </div>
-                  <h2 className="text-3xl font-bold tracking-tighter">Team Synergy Workshop</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter">Lokakarya Sinergi Tim</h2>
                   <p className="text-muted-foreground">
-                    Our Team Synergy Workshops are designed to strengthen team dynamics, improve communication, and
-                    build trust among team members. These interactive sessions can be conducted in-person or virtually
-                    and are customized to address your team's specific challenges.
+                    Lokakarya sinergi tim kami dirancang untuk memperkuat dinamika tim, meningkatkan komunikasi dan membangun kepercayaan di antara anggota tim. Sesi interaktif ini dapat dilaksanakan secara langsung atau virtual dan disesuaikan untuk mengatasi tantangan spesifik tim anda.
                   </p>
                 </div>
                 <ul className="grid gap-2">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Engaging team-building activities and challenges</span>
+                    <span>Kegiatan dan tantangan pembentukan tim yang menarik</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Communication style assessment and adaptation</span>
+                    <span>Penilaian dan adaptasi gaya komunikasi.</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Conflict resolution and problem-solving frameworks</span>
+                    <span>Kerangka penyelesaian konflik dan pemecahan masalah</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <CheckCircle className="h-4 w-4 text-primary" />
-                    <span>Action planning for sustained team improvement</span>
+                    <span>Perencanaan aksi untuk perbaikan tim yang berkelanjutan</span>
                   </li>
                 </ul>
                 <div>
                   <Button asChild>
-                    <Link href="/contact?service=team-synergy">Request a Consultation</Link>
+                    <Link href="/contact?service=team-synergy">Konsultasi Sekarang</Link>
                   </Button>
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1631&auto=format&fit=crop"
                 width={600}
                 height={400}
                 alt="Team Building Workshop"
@@ -495,9 +489,9 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Flexible Delivery Methods</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Metode Penyampaian Flexible</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We offer multiple training delivery options to accommodate your organization's needs and preferences
+                  Kami menawarkan berbagai opsi penyampaian pelatihan untuk menyesuaikan dengan kebutuhan dan preferensi organisasi Anda
                 </p>
               </div>
             </div>
@@ -509,8 +503,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">In-Person Training</h3>
                   <p className="text-muted-foreground">
-                    Traditional classroom-style training conducted at your location or our training facilities, ideal
-                    for hands-on learning and team building.
+                    Pelatihan gaya kelas tradisional yang dilaksanakan di lokasi Anda atau fasilitas pelatihan kami, ideal untuk pembelajaran praktis dan pembentukan tim.
                   </p>
                 </div>
               </div>
@@ -521,8 +514,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Virtual Instructor-Led</h3>
                   <p className="text-muted-foreground">
-                    Live online training sessions led by expert facilitators, providing interactive learning experiences
-                    regardless of location.
+                    Sesi pelatihan online langsung yang dipandu oleh fasilitator ahli, memberikan pengalaman pembelajaran interaktif tanpa tergantung lokasi.
                   </p>
                 </div>
               </div>
@@ -533,8 +525,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Blended Learning</h3>
                   <p className="text-muted-foreground">
-                    Combination of self-paced online modules and live sessions, offering flexibility while maintaining
-                    engagement and accountability.
+                    Kombinasi modul online mandiri dan sesi langsung, memberikan fleksibilitas sambil tetap menjaga keterlibatan dan akuntabilitas.
                   </p>
                 </div>
               </div>
@@ -547,9 +538,9 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Training Approach</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Pendekatan Pelatihan Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  How we deliver exceptional training experiences that drive real results
+                  Cara kami menyampaikan pengalaman pelatihan yang luar biasa yang mendorong hasil nyata
                 </p>
               </div>
             </div>
@@ -561,8 +552,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Assess</h3>
                   <p className="text-muted-foreground">
-                    We begin by understanding your organization's unique needs, challenges, and goals through
-                    comprehensive needs analysis.
+                    Kami mulai dengan memahami kebutuhan, tantangan dan tujuan unik organisasi anda melalui analisis kebutuhan yang komprehensif.
                   </p>
                 </div>
               </div>
@@ -573,8 +563,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Design</h3>
                   <p className="text-muted-foreground">
-                    We create customized learning experiences that align with your objectives, culture, and the specific
-                    outcomes you want to achieve.
+                    Kami menciptakan pengalaman pembelajaran yang disesuaikan dengan tujuan, budaya, dan hasil spesifik yang ingin dicapai.
                   </p>
                 </div>
               </div>
@@ -585,8 +574,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Deliver</h3>
                   <p className="text-muted-foreground">
-                    Our expert facilitators engage participants through interactive and impactful sessions using a
-                    variety of teaching methodologies.
+                    Fasilitator ahli kami melibatkan peserta melalui sesi interaktif dan berdampak menggunakan berbagai metodelogi pengajaran.
                   </p>
                 </div>
               </div>
@@ -597,8 +585,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h3 className="text-xl font-bold">Evaluate</h3>
                   <p className="text-muted-foreground">
-                    We measure results and refine our approach to ensure continuous improvement and ROI through
-                    comprehensive assessment and feedback mechanisms.
+                    Kami mengukur hasil dan menyempurnakan pendekatan kami untuk memastikan perbaikan berkelanjutan dan ROI melalui mekanisme penilaian dan umpan balik yang komprehensif.
                   </p>
                 </div>
               </div>
@@ -611,9 +598,9 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Benefits of Our Training Programs</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Benefit Program Pelatihan Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Why organizations choose TrainingPro for their learning and development needs
+                  Mengapa organisasi memilih Mandu Outsource untuk kebutuhan pembelajaran dan pengembangan mereka
                 </p>
               </div>
             </div>
@@ -623,10 +610,9 @@ export default function ServicesPage() {
                   <Lightbulb className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Customized Solutions</h3>
+                  <h3 className="text-xl font-bold">Solusi Khusus</h3>
                   <p className="text-muted-foreground">
-                    Training programs tailored to your specific business challenges, industry context, and
-                    organizational culture.
+                    Program pelatihan yang disesuaikan dengan tantangan bisnis spesifik anda, konteks industri, dan budaya organisasi.
                   </p>
                 </div>
               </div>
@@ -635,10 +621,9 @@ export default function ServicesPage() {
                   <LineChart className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Measurable Results</h3>
+                  <h3 className="text-xl font-bold">Hasil Yang Dapat Diukur</h3>
                   <p className="text-muted-foreground">
-                    Clear metrics and evaluation methods to track progress and demonstrate the impact of training
-                    investments.
+                    Metrik yang jelas dan metode evaluasi yang melacak kemajuan dan menunjukkan dampak investasi pelatihan.
                   </p>
                 </div>
               </div>
@@ -647,10 +632,9 @@ export default function ServicesPage() {
                   <ShieldCheck className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Expert Facilitators</h3>
+                  <h3 className="text-xl font-bold">Fasilitator Ahli</h3>
                   <p className="text-muted-foreground">
-                    Industry professionals with real-world experience who bring practical insights to every training
-                    session.
+                    Profesional industri dengan pengalaman dunia nyata yang membawa wawasan praktis ke setiap sesi pelatihan.
                   </p>
                 </div>
               </div>
@@ -659,9 +643,9 @@ export default function ServicesPage() {
                   <MessageSquare className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Engaging Methodology</h3>
+                  <h3 className="text-xl font-bold">Metodologi interaktif</h3>
                   <p className="text-muted-foreground">
-                    Interactive learning experiences that keep participants engaged and promote knowledge retention.
+                    Pengalaman pembelajaran interaktif yang menjaga keterlibatan dan mendorong retensi pengetahuan.
                   </p>
                 </div>
               </div>
@@ -670,9 +654,9 @@ export default function ServicesPage() {
                   <Users className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Scalable Programs</h3>
+                  <h3 className="text-xl font-bold">Program Berskala</h3>
                   <p className="text-muted-foreground">
-                    Training solutions that can be scaled across departments, locations, or the entire organization.
+                    Solusi pelatihan yang dapat diterapkan secara skala di berbagai departemen, lokasi, atau seluruh organisasi
                   </p>
                 </div>
               </div>
@@ -681,10 +665,9 @@ export default function ServicesPage() {
                   <BookOpen className="h-6 w-6" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold">Ongoing Support</h3>
+                  <h3 className="text-xl font-bold">Dukungan Berkelanjutan</h3>
                   <p className="text-muted-foreground">
-                    Post-training resources, coaching, and reinforcement to ensure long-term skill application and
-                    development.
+                    Sumberdaya pasca pelatihan, pelatihan, dan penguatan untuk memastikan penerapan dan pengembangan keterampilan jangka panjang.
                   </p>
                 </div>
               </div>
@@ -697,9 +680,9 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">What Our Clients Say</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Pendapat Client Kami</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Hear from organizations that have transformed their workforce through our training programs
+                  Dengarkan dari organisasi yang menstransfromasi tenaga kerja mereka melalui program pelatihan kami
                 </p>
               </div>
             </div>
@@ -726,13 +709,12 @@ export default function ServicesPage() {
                     ))}
                   </div>
                   <p className="text-muted-foreground">
-                    "The leadership program transformed our management team. We've seen improved communication, better
-                    decision-making, and increased employee satisfaction. The ROI has been exceptional."
+                    "Program kepemimpinan kami telah menstransfromasi tim manajemen kami. Kami telah melihat peningkatan komunikasi, pengambilan keputusan yang lebih baik, dan kepuasan karyawan yang lebih tinggi. ROI yang kami peroleh sangat luar biasa."
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1470&auto=format&fit=crop"
                     width={40}
                     height={40}
                     alt="David Wilson"
@@ -766,20 +748,19 @@ export default function ServicesPage() {
                     ))}
                   </div>
                   <p className="text-muted-foreground">
-                    "The technical skills bootcamp helped us rapidly upskill our development team on new technologies.
-                    The hands-on approach ensured they could immediately apply what they learned to our projects."
+                    "Bootcamp keterampilan teknis membantu kami meningkatkan keterampilan tim pengembangan kami dengan cepat pada teknologi baru. Pendekatan praktis memastikan mereka dapat segera menerapkan apa yang mereka pelajari dari proyek kami."
                   </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="https://images.unsplash.com/photo-1649768870222-17848797d6b4?q=80&w=1470&auto=format&fit=crop"
                     width={40}
                     height={40}
                     alt="Jennifer Lee"
                     className="rounded-full object-cover"
                   />
                   <div>
-                    <p className="text-sm font-medium">Jennifer Lee</p>
+                    <p className="text-sm font-medium">Adi Pras</p>
                     <p className="text-xs text-muted-foreground">CTO, Innovate Software</p>
                   </div>
                 </div>
@@ -787,7 +768,7 @@ export default function ServicesPage() {
             </div>
             <div className="flex justify-center">
               <Button variant="outline" asChild>
-                <Link href="/success-stories">Read More Success Stories</Link>
+                <Link href="/success-stories">Lihat Lainnya</Link>
               </Button>
             </div>
           </div>
@@ -798,18 +779,17 @@ export default function ServicesPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to Transform Your Workforce?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ayo Mulai Tingkatkan Profesionalitas Organisasi Anda</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Contact us today to discuss how our training solutions can help your organization reach its full
-                  potential.
+                  Mari berdiskusi solusi pelatihan kami agar bisa membantu organisasi anda mencapai potensi maksimal.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button size="lg" asChild>
-                  <Link href="/contact">Contact Us</Link>
+                  <Link href="/contact">Hubungi Kami</Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/success-stories">View Success Stories</Link>
+                  <Link href="/success-stories">Lihat Testimonial</Link>
                 </Button>
               </div>
             </div>
@@ -959,7 +939,10 @@ export default function ServicesPage() {
               <span>TrainingPro</span>
             </div>
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} TrainingPro. All rights reserved.
+              © {new Date().getFullYear()} Mandu Outsource. All rights reserved.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              2025 Site by Archyst
             </p>
           </div>
         </div>
